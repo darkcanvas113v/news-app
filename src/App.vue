@@ -3,7 +3,7 @@
     <header class="bg-primary shadow h-16 flex flex-row items-center">
       <router-link 
         :to="{name: 'home'}" 
-        class="px-6 inline-flex items-center h-full text-white">Home</router-link>
+        class="font-mon text-2xl font-bold pl-6 inline-flex items-center h-full text-white">news-app</router-link>
 
       <input 
         class="bg-secondary grow mx-6 p-2 rounded" 
@@ -13,7 +13,7 @@
         @keyup.enter="searchByKeyword"/>
       
       <button 
-        class="inline-flex items-center bg-secondary rounded w-16 mr-6">US</button>
+        class="text-center bg-secondary rounded w-16 mr-6">US</button>
     </header>
     <main>
       <router-view/>
